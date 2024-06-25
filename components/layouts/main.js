@@ -11,14 +11,14 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="I am a Software Engineer skilled in full cycle development, cloud computing, and DevOps. Browse through my portfolio to see my projects and expertise."
+          content="I am a Software Engineer skilled in full cycle development. Browse through my portfolio to see my projects and expertise."
         />
         <meta
           name="keywords"
-          content="software engineer, full cycle development, cloud associate, DevOps, portfolio"
+          content="software engineer, full cycle development, aaron wendell, developer, portfolio"
         />
         <link rel="icon" type="image/x-icon" href="/images/favicon.png"></link>
-        <title>Rodolfo Marques - Homepage</title>
+        <title>Aaron Wendell - Homepage</title>
       </Head>
 
       <Navbar path={router.asPath} />

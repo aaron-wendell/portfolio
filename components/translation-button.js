@@ -6,23 +6,31 @@ import {
   MenuItem,
   MenuList,
   MenuButton,
-  IconButton
+  IconButton,
+  useColorModeValue
 } from '@chakra-ui/react'
 import useTranslation from 'next-translate/useTranslation'
 
 const TranslationButton = () => {
   const { t } = useTranslation('common')
   const router = useRouter()
+  const currentLocale = router.locale
+  const activeColor = useColorModeValue('gray.200', 'gray.600')
+  const hoverColor = useColorModeValue('gray.100', 'gray.500')
+
 
   const handleLanguageChange = locale => {
     router.push(router.pathname, router.asPath, { locale })
   }
   const languages = [
-    { lang: 'fr', lable: t('lable_french') },
-    { lang: 'en', lable: t('lable_english') },
-    { lang: 'ru', lable: t('lable_russian') },
-    { lang: 'ja', lable: t('lable_japanese') },
-    { lang: 'pt', lable: t('lable_portuguese') }
+    { lang: 'fr', label: t('label_french') },
+    { lang: 'en', label: t('label_english') },
+    { lang: 'de', label: t('label_german') },
+    { lang: 'es', label: t('label_spanish') },
+    { lang: 'it', label: t('label_italian') },
+    { lang: 'ru', label: t('label_russian') },
+    { lang: 'jp', label: t('label_japanese') },
+    { lang: 'pt', label: t('label_portuguese') }
   ]
 
   return (
@@ -39,8 +47,10 @@ const TranslationButton = () => {
             <MenuItem
               key={language.lang}
               onClick={() => handleLanguageChange(language.lang)}
+              bg={language.lang === currentLocale ? activeColor : 'inherit'}
+              _hover={{ bg: hoverColor }}
             >
-              {language.lable}
+              {language.label}
             </MenuItem>
           ))}
         </MenuList>

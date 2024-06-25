@@ -1,0 +1,12 @@
+{
+  "title": "Блог",
+  "date": "2023",
+  "description": "Интерфейс блога, созданный в React с использованием REST API, представляющий сообщения и их комментарии, список пользователей и информацию о регистрации пользователей.",
+  "platform": "Платформа",
+  "platformValue": "Веб",
+  "stack": "Стек технологий",
+  "stackValue": "React, Javascript",
+  "github": "GitHub",
+  "githubLink": "Blog",
+  "imageAlt": "Главная страница"
+}

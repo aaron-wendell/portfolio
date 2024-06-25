@@ -1,0 +1,14 @@
+{
+  "title": "Cinema Otaku",
+  "date": "2024",
+  "description": "Un sitio web receptivo de streaming de anime, donde puedes ver y buscar animes por su nombre, nombres alternativos, categorías y primera letra.",
+  "quote": "\"Acepto de todo corazón la ética del código educativo y el espíritu de compartir conocimientos, con la sincera esperanza de que se utilice para el bien y nunca se abuse de él\" - Aaron Wendell",
+  "private": "El código fuente es privado, ya que actualmente se encuentra en venta.",
+  "platform": "Plataforma",
+  "platformValue": "Web",
+  "stack": "Tecnologías",
+  "stackValue": "PHP, CSS, HTML, Javascript",
+  "github": "GitHub",
+  "githubLink": "Cinema Otaku",
+  "imageAlt": "Página de inicio"
+}

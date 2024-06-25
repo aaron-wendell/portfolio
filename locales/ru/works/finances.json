@@ -1,0 +1,12 @@
+{
+  "title": "Финансы",
+  "date": "2022",
+  "description": "Мобильное приложение, разработанное для помощи людям в организации своих личных финансов.",
+  "platform": "Платформа",
+  "platformValue": "iOS/Android",
+  "stack": "Стек технологий",
+  "stackValue": "React Native, Javascript, Node.js, Expo, Firebase",
+  "github": "GitHub",
+  "githubLink": "Finances",
+  "imageAlt": "Главная страница"
+}

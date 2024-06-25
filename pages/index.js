@@ -62,7 +62,7 @@ const Page = () => {
             align="center"
           >
             <ProfileImage
-              src="/images/rodolfo.png"
+              src="/images/aaron.png"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -95,7 +95,7 @@ const Page = () => {
             {t('bio')}
           </Heading>
           <BioSection>
-            <BioYear>2003</BioYear>
+            <BioYear>2002</BioYear>
             {t('born')}
           </BioSection>
           <BioSection>
@@ -103,12 +103,12 @@ const Page = () => {
             {t('education')}
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
-            {t('irroba')}
+            <BioYear>2021</BioYear>
+            {t('moreira')}
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
-            {t('q2bank')}
+            <BioYear>2023</BioYear>
+            {t('bmf')}
           </BioSection>
         </Section>
 
@@ -125,7 +125,7 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/RodolfoMRibeiro" target="_blank">
+              <Link href="https://github.com/aaron-wendell" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
@@ -137,7 +137,7 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Link
-                href="https://www.linkedin.com/in/rodolfomr"
+                href="https://www.linkedin.com/in/aaron-wendell-moreira"
                 target="_blank"
               >
                 <Button
@@ -145,6 +145,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoLinkedin />}
                 >
+                
                   {t('linkedin')}
                 </Button>
               </Link>
@@ -159,7 +160,7 @@ const Page = () => {
           <Box align="center" my={4}>
             <Button
               as={NextLink}
-              href="mailto:rodolfomarqribeiro@gmail.com"
+              href="mailto:aaronmoreiracampos@gmail.com"
               scroll={false}
               leftIcon={<EmailIcon />}
               colorScheme="teal"

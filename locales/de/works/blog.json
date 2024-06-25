@@ -1,0 +1,12 @@
+{
+  "title": "Blog",
+  "date": "2023",
+  "description": "Eine Blog-Schnittstelle, die in React unter Verwendung einer Rest-API erstellt wurde und Beiträge und deren Kommentare, eine Liste von Benutzern sowie Informationen zur Benutzerregistrierung präsentiert.",
+  "platform": "Plattform",
+  "platformValue": "Web",
+  "stack": "Technologie-Stack",
+  "stackValue": "React, Javascript",
+  "github": "GitHub",
+  "githubLink": "Blog",
+  "imageAlt": "Startseite"
+}

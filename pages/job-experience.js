@@ -27,26 +27,26 @@ const JobExperience = () => {
           </Heading>
           <BioSection ml={-4}>
             <BioYear ml={5}>
-              <Link href="https://quero2pay.com.br/" target="_blank">
-                Q2Bank
+              <Link href="https://www.buymorefollowers.com/" target="_blank">
+                Buy More Followers
               </Link>{' '}
-              - {t('q2bank_experience')}
+              - {t('experience')}
             </BioYear>
-            <Paragraph>{t('q2bank_accomplishments')}</Paragraph>
-            <OpeningTitle>{t('q2bank_accomplishment_1')}</OpeningTitle>
+            <Paragraph>{t('accomplishments')}</Paragraph>
+            <OpeningTitle>{t('bmf_accomplishment_1')}</OpeningTitle>
             <List spacing={3} ml={50}>
               <ListItem textAlign="justify">
                 <ListIcon as={MdCheckCircle} color="green.500" />
-                {t('q2bank_accomplishment_1')}
+                {t('bmf_accomplishment_2')}
               </ListItem>
               <ListItem textAlign="justify">
-                <ListIcon as={MdCheckCircle} color="green.500" />
-                {t('q2bank_accomplishment_2')}
+                <ListIcon as={MdCheckCircle} color="green.500"  />
+                {t('bmf_accomplishment_3')} 
               </ListItem>
-              <ListItem textAlign="justify">
+              {/* <ListItem textAlign="justify">
                 <ListIcon as={MdCheckCircle} color="green.500" />
-                {t('q2bank_accomplishment_3')}
-              </ListItem>
+                {t('bmf_accomplishment_3')}
+              </ListItem> */}
             </List>
           </BioSection>
         </Section>
@@ -56,21 +56,29 @@ const JobExperience = () => {
         <Section delay={0.4}>
           <BioSection ml={-5}>
             <BioYear ml={5}>
-              <Link href="https://www.irroba.com.br/" target="_blank">
-                Irroba
+              <Link href="https://www.moreirasupermercado.com.br/" target="_blank">
+                Moreira Supermercado
               </Link>{' '}
-              - {t('irroba_experience')}
+              - {t('experience')}
             </BioYear>
-            <Paragraph>{t('irroba_accomplishments')}</Paragraph>
-            <OpeningTitle>{t('irroba_accomplishment_1')}</OpeningTitle>
+            <Paragraph>{t('accomplishments')}</Paragraph>
+            <OpeningTitle>{t('moreira_accomplishment_1')}</OpeningTitle>
             <List spacing={3} ml={50}>
               <ListItem textAlign="justify">
                 <ListIcon as={MdCheckCircle} color="green.500" />
-                {t('irroba_accomplishment_1')}
+                {t('moreira_accomplishment_2')}
               </ListItem>
               <ListItem textAlign="justify">
                 <ListIcon as={MdCheckCircle} color="green.500" />
-                {t('irroba_accomplishment_2')}
+                {t('moreira_accomplishment_3')}
+              </ListItem>
+              <ListItem textAlign="justify">
+                <ListIcon as={MdCheckCircle} color="green.500" />
+                {t('moreira_accomplishment_4')}
+              </ListItem>
+              <ListItem textAlign="justify">
+                <ListIcon as={MdCheckCircle} color="green.500" />
+                {t('moreira_accomplishment_5')}
               </ListItem>
             </List>
           </BioSection>

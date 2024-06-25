@@ -1,0 +1,12 @@
+{
+  "title": "コラッタ",
+  "date": "2024",
+  "description": "コラッタポケモンに追われるシンプルなウェブゲームで、彼らがあなたを捕まえる前に彼らを捕まえなければなりません。",
+  "platform": "プラットフォーム",
+  "platformValue": "Web",
+  "stack": "スタック",
+  "stackValue": "Construct, Construct 3, HTML, Low-code, No-code",
+  "github": "GitHub",
+  "githubLink": "コラッタ",
+  "imageAlt": "ホームページ"
+}

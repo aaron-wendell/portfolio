@@ -1,0 +1,12 @@
+{
+  "title": "Таймер",
+  "date": "2022",
+  "description": "Простое мобильное приложение-таймер, разработанное для эффективного управления вашим временем.",
+  "platform": "Платформа",
+  "platformValue": "iOS/Android",
+  "stack": "Стек технологий",
+  "stackValue": "React Native, Javascript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Timer",
+  "imageAlt": "Главная страница"
+}

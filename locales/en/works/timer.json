@@ -1,0 +1,12 @@
+{
+  "title": "Timer",
+  "date": "2022",
+  "description": "A simple mobile app timer designed to help you efficiently manage your time.",
+  "platform": "Platform",
+  "platformValue": "iOS/Android",
+  "stack": "Stack",
+  "stackValue": "React Native, Javascript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Timer",
+  "imageAlt": "Homepage"
+}

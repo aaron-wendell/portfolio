@@ -1,0 +1,12 @@
+{
+  "title": "Temporizador",
+  "date": "2022",
+  "description": "Un temporizador de aplicación móvil simple diseñado para ayudarte a gestionar eficientemente tu tiempo.",
+  "platform": "Plataforma",
+  "platformValue": "iOS/Android",
+  "stack": "Tecnologías",
+  "stackValue": "React Native, Javascript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Temporizador",
+  "imageAlt": "Página de inicio"
+}

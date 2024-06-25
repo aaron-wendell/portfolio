@@ -1,0 +1,12 @@
+{
+  "title": "財務",
+  "date": "2022",
+  "description": "個人の財務を整理するのを支援するために設計されたモバイルアプリケーション。",
+  "platform": "プラットフォーム",
+  "platformValue": "iOS/Android",
+  "stack": "スタック",
+  "stackValue": "React Native, Javascript, Node.js, Expo, Firebase",
+  "github": "GitHub",
+  "githubLink": "Finances",
+  "imageAlt": "ホームページ"
+}

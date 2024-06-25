@@ -1,0 +1,12 @@
+{
+  "title": "タイマー",
+  "date": "2022",
+  "description": "時間を効率的に管理するために設計されたシンプルなモバイルアプリのタイマー。",
+  "platform": "プラットフォーム",
+  "platformValue": "iOS/Android",
+  "stack": "スタック",
+  "stackValue": "React Native, Javascript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Timer",
+  "imageAlt": "ホームページ"
+}

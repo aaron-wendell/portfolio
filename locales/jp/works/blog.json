@@ -1,0 +1,12 @@
+{
+  "title": "ブログ",
+  "date": "2023",
+  "description": "Rest APIを使用して作成されたReactのブログインターフェースで、投稿とそのコメント、ユーザーのリスト、ユーザー登録情報を表示します。",
+  "platform": "プラットフォーム",
+  "platformValue": "Web",
+  "stack": "スタック",
+  "stackValue": "React、JavaScript",
+  "github": "GitHub",
+  "githubLink": "Blog",
+  "imageAlt": "ホームページ"
+}

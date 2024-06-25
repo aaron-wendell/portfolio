@@ -1,0 +1,12 @@
+{
+  "title": "Rattata",
+  "date": "2024",
+  "description": "Простая веб-игра, в которой вас преследуют Раттаты, и вам нужно захватить их, прежде чем они вас поймают.",
+  "platform": "Платформа",
+  "platformValue": "Веб",
+  "stack": "Стек технологий",
+  "stackValue": "Construct, Construct 3, HTML, Low-code, No-code",
+  "github": "GitHub",
+  "githubLink": "Rattata",
+  "imageAlt": "Главная страница"
+}

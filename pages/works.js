@@ -4,10 +4,12 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import useTranslation from 'next-translate/useTranslation'
 
-import thumbKeylogger from '../public/images/works/keylogger.png'
-import thumbDDOS from '../public/images/works/ddos.png'
-import thumbDSMovie from '../public/images/works/dsmovie.png'
-import thumbAngolist from '../public/images/works/angolist.png'
+import thumbCinema from '../public/images/works/cinema.jpg'
+import thumbBlog from '../public/images/works/blog.jpg'
+import thumbBmf from '../public/images/works/bmf.png'
+import thumbFinances from '../public/images/works/finances.jpg'
+import thumbTimer from '../public/images/works/timer.jpg'
+import thumbRattata from '../public/images/works/rattata.png'
 
 const Works = () => {
   const { t } = useTranslation('common')
@@ -21,34 +23,54 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="dsmovie" title="DSMovie" thumbnail={thumbDSMovie}>
-              {t('dsmovie_description')}
+            <WorkGridItem id="buy-more-followers" title={t('buy_more_followers')} thumbnail={thumbBmf}>
+              {t('buy_more_followers_description')}
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem
-              id="keylogger"
-              title="KeySense"
-              thumbnail={thumbKeylogger}
+              id="cinema"
+              title={t('cinema')}
+              thumbnail={thumbCinema}
             >
-              {t('keysense_description')}
+              {t('cinema_description')}
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem
-              id="angolist"
-              title="Angolist"
-              thumbnail={thumbAngolist}
+              id="finances"
+              title={t('finances')}
+              thumbnail={thumbFinances}
             >
-              {t('angolist_description')}
+              {t('finances_description')}
             </WorkGridItem>
           </Section>
 
           <Section>
-            <WorkGridItem id="ddos" title="DDOS FLOOD" thumbnail={thumbDDOS}>
-              {t('ddos_flood_description')}
+            <WorkGridItem
+              id="timer"
+              title={t('timer')}
+              thumbnail={thumbTimer}
+            >
+              {t('timer_description')}
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="rattata"
+              title={t('rattata')}
+              thumbnail={thumbRattata}
+            >
+              {t('rattata_description')}
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="blog" title={t('blog')} thumbnail={thumbBlog}>
+              {t('blog_description')}
             </WorkGridItem>
           </Section>
         </SimpleGrid>

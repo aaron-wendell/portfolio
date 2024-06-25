@@ -1,0 +1,12 @@
+{
+  "title": "Chronomètre",
+  "date": "2022",
+  "description": "Une application mobile simple de chronomètre conçue pour vous aider à gérer efficacement votre temps.",
+  "platform": "Plateforme",
+  "platformValue": "iOS/Android",
+  "stack": "Technologies",
+  "stackValue": "React Native, JavaScript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Chronomètre",
+  "imageAlt": "Page d'accueil"
+}

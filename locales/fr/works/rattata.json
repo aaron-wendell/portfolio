@@ -1,0 +1,12 @@
+{
+  "title": "Rattata",
+  "date": "2024",
+  "description": "Un jeu web simple où vous êtes poursuivi par des Rattatas et devez les capturer avant qu'ils ne vous attrapent.",
+  "platform": "Plateforme",
+  "platformValue": "Web",
+  "stack": "Technologies",
+  "stackValue": "Construct, Construct 3, HTML, Low-code, No-code",
+  "github": "GitHub",
+  "githubLink": "Rattata",
+  "imageAlt": "Page d'accueil"
+}

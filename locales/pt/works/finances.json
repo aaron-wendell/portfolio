@@ -1,0 +1,12 @@
+{
+  "title": "Finanças",
+  "date": "2022",
+  "description": "Um aplicativo móvel projetado para ajudar as pessoas a organizar suas finanças pessoais.",
+  "platform": "Plataforma",
+  "platformValue": "iOS/Android",
+  "stack": "Tecnologias",
+  "stackValue": "React Native, JavaScript, Node.js, Expo, Firebase",
+  "github": "GitHub",
+  "githubLink": "Finanças",
+  "imageAlt": "Página inicial"
+}

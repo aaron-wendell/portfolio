@@ -88,7 +88,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/RodolfoMRibeiro/portfolio"
+            href="https://github.com/aaron-wendell/portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -124,7 +124,7 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/RodolfoMRibeiro/portfolio"
+                  href="https://github.com/aaron-wendell/portfolio"
                 >
                   {t('navbar_source_mobile_width')}
                 </MenuItem>

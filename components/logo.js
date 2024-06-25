@@ -40,7 +40,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Rodolfo Marques
+          Aaron Wendell
         </Text>
       </LogoBox>
     </Link>

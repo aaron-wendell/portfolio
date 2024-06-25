@@ -1,0 +1,12 @@
+{
+  "title": "Blog",
+  "date": "2023",
+  "description": "Uma interface de blog criada em React utilizando Rest API, que apresenta artigos e seus comentários, uma lista de usuários e informações de inscrição dos usuários.",
+  "platform": "Plataforma",
+  "platformValue": "Web",
+  "stack": "Tecnologias",
+  "stackValue": "React, JavaScript",
+  "github": "GitHub",
+  "githubLink": "Blog",
+  "imageAlt": "Página inicial"
+}

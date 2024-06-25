@@ -1,0 +1,12 @@
+{
+  "title": "Timer",
+  "date": "2022",
+  "description": "Eine einfache mobile App, die entwickelt wurde, um Ihnen zu helfen, Ihre Zeit effizient zu verwalten.",
+  "platform": "Plattform",
+  "platformValue": "iOS/Android",
+  "stack": "Technologie-Stack",
+  "stackValue": "React Native, Javascript, Node.js, Expo",
+  "github": "GitHub",
+  "githubLink": "Timer",
+  "imageAlt": "Startseite"
+}
